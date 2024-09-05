@@ -31,7 +31,7 @@ export function App() {
         <TwitterFollowCard
           key={userName}
           userName={userName}
-          isFollowing={isFollowing}
+          initialIsFollowing={isFollowing}
           formattedUsername={format}
         >
           {name}
